@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images3.alphacoders.com/132/1328226.png);
+  background-size: cover;
+  height: 100vh;
+}
+.Maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.register {
+  width: 500px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.301);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 60px;
+  background-color: rgba(1, 49, 153, 0.11);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  width: 100%;
+}
+
+.label label,
+.radios label {
+  color: rgb(236, 236, 236);
+  font-family: "Roboto";
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgb(255, 25, 25);
+}
+
+.label input {
+  outline: none;
+  height: 35px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #0026ff60;
+  border-radius: 40px;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.label input::placeholder {
+  color: rgba(255, 255, 255, 0.911);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.radios {
+  display: flex;
+  gap: 10px;
+}
+
+.submit {
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 15px 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  border-radius: 40px;
+  transition: 0.5s;
+}
